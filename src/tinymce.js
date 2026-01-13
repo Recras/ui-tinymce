@@ -177,7 +177,7 @@ angular.module('ui.tinymce', [])
                         tinyInstance.setContent(viewValue);
                         // Triggering change event due to TinyMCE not firing event &
                         // becoming out of sync for change callbacks
-                        tinyInstance.fire('change');
+                        tinyInstance.dispatch('change');
                     }
                 };
 

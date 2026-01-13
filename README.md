@@ -9,8 +9,8 @@ This library is looking for a maintainer. If you feel up to the task please open
 
 # Requirements
 
-- AngularJS 1.4.x or higher and it has been tested with Angular 1.8.3.
-- TinyMCE 5
+- AngularJS 1.8
+- TinyMCE 6 or 7
 
 # Testing
 
