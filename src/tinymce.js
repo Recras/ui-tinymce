@@ -145,6 +145,9 @@ angular.module('ui.tinymce', [])
                     if (options.baseURL) {
                         tinymce.baseURL = options.baseURL;
                     }
+                    if (!options.license_key) {
+                        options.license_key = 'gpl';
+                    }
                     var maybeInitPromise = tinymce.init(options);
                     if (maybeInitPromise && typeof maybeInitPromise.then === 'function') {
                         maybeInitPromise.then(function () {
